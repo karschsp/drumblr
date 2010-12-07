@@ -88,14 +88,6 @@ function drumblr_profile_tasks(&$task, $url) {
   install_enable_theme('cube');
   install_default_theme('drumbl');
 
-  /* drumblr_roles_add();
-  drumblr_users_add();
-  drumblr_menus_add();
-  drumblr_types_add();
-  drumblr_taxonomy_add();
-  drumblr_blocks_add();
-  drumblr_blocks_remove();
-
   // Create a welcome page.
   $node = new stdClass();
   $node->type = 'page';
